@@ -22,7 +22,7 @@ const Nosotros = () => {
 
             <p className='mt-10 px-15 text-center'>Mantenemos una relación mutuamente beneficiosa con todas las partes interesadas.</p>
 
-            <button className='mt-20 px-20 py-6 text-center border-2 rounded-20 border-verde-manzana relative z-99 mb-[-10px]'>Mas informacion</button>
+            <button className='mt-20 px-20 py-6 text-center border-2 rounded-20 border-verde-manzana'>Mas informacion</button>
 
             <img src={bottom1} alt="separador"/>
         </div>

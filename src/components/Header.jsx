@@ -13,10 +13,10 @@ const Header = () => {
 
 
   return (
-    <header className="bg-white h-60 px-10 flex justify-between fixed w-full z-99">
+    <header className="bg-white h-60 px-10 flex justify-between fixed w-full z-99 shadow-md">
 
       <div className="flex justify-between items-center w-full md:w-200">
-        {/* <h1 className="text-2xl font-bold">LOGO</h1> */}
+
         <img src={LogoMobile} alt="" className='w-180'/>
         <button
           className="text-gray-500 hover:text-gray-700 md:hidden"
@@ -59,5 +59,3 @@ const Header = () => {
 };
 
 export default Header;
-
-// outline outline-1 outline-red-700

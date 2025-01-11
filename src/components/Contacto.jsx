@@ -10,21 +10,21 @@ const Contacto = () => {
                     <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="name">
                         Nombre
                     </label>
-                    <input className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="name" type="text" placeholder="Tu nombre" />
+                    <input className="shadow appearance-none border rounded w-full py-6 px-8 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="name" type="text" placeholder="Tu nombre" />
                 </div>
 
                 <div className="m-20">
                     <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="email">
                         Email
                     </label>
-                    <input className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="email" type="email" placeholder="Tu email" />
+                    <input className="shadow appearance-none border rounded w-full py-6 px-8 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="email" type="email" placeholder="Tu email" />
                 </div>
 
                 <div className="m-20">
                     <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="message">
                         Mensaje
                     </label>
-                    <textarea className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="message" rows="3" placeholder="Tu mensaje"></textarea>
+                    <textarea className="shadow appearance-none border rounded w-full py-6 px-8 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="message" rows="3" placeholder="Tu mensaje"></textarea>
                 </div>
                 <div className="flex items-center justify-center">
                     <button className='mt-20 px-20 py-6 text-center border-2 rounded-20 border-verde-manzana' type="submit">
