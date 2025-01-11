@@ -7,6 +7,14 @@ export default {
   "darkMode": 'selector',
   theme: {
     extend: {
+      colors: { 
+        'turquesa-oscuro': 'hsl(165, 23%, 42%)',
+        'turquesa-suave': 'hsl(175, 39%, 62%)',
+        'verde-manzana': 'hsl(79, 51%, 51%)',
+        'parafos-color': 'hsl(42, 5%, 35%)',
+        'titulos-color': 'hsl(0, 0%, 10%)',
+
+      },
       spacing: {
         '-40': '-40px', // Margen negativo personalizado, esto me permite usar margenes negavitos, al parecer puedo colocar cualquier valor y funciona!
       },
