@@ -51,13 +51,12 @@ const Main = () => {
             Mas informacion
           </button>
 
-          <img src={bottom1} alt="separador" />
+          <img src={bottom1} alt="separador" className='mt-50'/>
         </div>
       </section>
 
         {/*//! Servicios */}
       <section className="" id='servicios'>
-        <img src="" alt="" />
 
         <div className="text-parafos-color flex flex-col items-center ">
           <img src={top1} alt="" />
@@ -86,7 +85,7 @@ const Main = () => {
             Mas informacion <img src="" alt="" />
           </button>
 
-          <img src={bottom3} alt="" />
+          <img src={bottom3} alt="separador" className='mt-60'/>
         </div>
       </section>
 
@@ -124,7 +123,7 @@ const Main = () => {
             Mas informacion <img src="" alt="" />
           </button>
 
-          <img src={bottom2} alt="" />
+          <img src={bottom2} alt="separador" className='mt-55'/>
         </div>
       </section>
 

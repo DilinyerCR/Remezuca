@@ -5,7 +5,7 @@ const Contacto = () => {
       <>
         <img src={top1} alt="" id='contact'/>
         
-        <div className="container mx-auto p-4 mb-40">
+        <div className="container mx-auto p-4 mb-60">
 
           <h1 className="text-25 font-bold mb-4 mt-40 text-center text-titulos-color">
             Contáctanos
