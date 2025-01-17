@@ -95,7 +95,7 @@ const Main = () => {
 
         <div className="text-parafos-color flex flex-col items-center ">
           <h1 className="font-bold text-25 mb-10 text-center text-titulos-color">
-            Reciclar
+           Como Reciclar
           </h1>
 
           <p className="mt-10 px-15 text-center">
