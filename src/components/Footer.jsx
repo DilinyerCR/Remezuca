@@ -1,7 +1,7 @@
-import ig from '../assets/icons8-instagram.svg'
-import ws from '../assets/icons8-whatsapp.svg'
-import ln from '../assets/icons8-linkedin.svg'
-import x from '../assets/icons8-x.svg'
+import ig from '../assets/icons/icons8-instagram.svg'
+import ws from '../assets/icons/icons8-whatsapp.svg'
+import ln from '../assets/icons/icons8-linkedin.svg'
+import x from '../assets/icons/icons8-x.svg'
 import { Link } from 'react-scroll'
 
 const Footer = () => {
