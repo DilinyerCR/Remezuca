@@ -1,8 +1,10 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import Bar from '../assets/Menu-3-lines.svg';
-import LogoMobile from '../assets/logo/Logo-desktop-1.jpg';
 import { Link } from 'react-scroll';
+import LogoMobile from '../assets/logo/Logo-desktop-1.jpg';
+
+import Menu from '../assets/icons/icons8-menu.svg'
+import Close from '../assets/icons/icons8-close.svg'
 
 
 const Header = () => {
@@ -22,7 +24,7 @@ const Header = () => {
           className="text-gray-500 hover:text-gray-700 md:hidden"
           onClick={() => setIsOpen(!isOpen)}
         >
-          <img src={Bar} alt="bar" className='w-35 mr-5'/>
+          <img src={isOpen === false ? Menu : Close} alt="bar" className='w-35 mr-5'/>
         </button>
       </div>
 
