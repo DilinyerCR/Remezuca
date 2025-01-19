@@ -6,11 +6,11 @@ import { useEffect, useState } from 'react';
 
 
 const Hero = () => {
-  // const texts = [
-  //   'Comprometidos en construir un mundo verde',
-  //   'Promoviendo la sostenibilidad en el planeta',
-  //   'Trabajando hacia un futuro eco-friendly'
-  // ];
+  const texts = [
+    'Comprometidos en construir un mundo verde',
+    'Promoviendo la sostenibilidad en el planeta',
+    'Trabajando hacia un futuro eco-friendly'
+  ];
 
   // const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
@@ -32,14 +32,14 @@ const Hero = () => {
         </div>
 
         <div className='bg-turquesa-oscuro px-20 py-30 h-100 text-white text-18 uppercase font-bold'>
-          {/* <ReactTyped 
+          <ReactTyped 
             strings={texts}
             typeSpeed={25}
             loop
             cursorChar="|"
             showCursor={true}
-          /> */}
-          <p className='bg-turquesa-oscuro px-20 h-100 text-white text-18 uppercase font-bold'>'Promoviendo la sostenibilidad en el planeta'</p>
+          />
+          {/* <p className='bg-turquesa-oscuro px-20 h-100 text-white text-18 uppercase font-bold'>'Promoviendo la sostenibilidad en el planeta'</p> */}
         </div>
     </div>
   )
